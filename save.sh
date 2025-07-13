@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo "Saving work..."
 git add .
 sleep 0.5
@@ -23,4 +24,5 @@ git push origin main
 sleep 0.4
 clear
 echo "Done!"
+sleep 1
 exit
