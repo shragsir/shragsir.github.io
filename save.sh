@@ -20,3 +20,8 @@ echo "Commiting..."
 git commit -m "$message"
 
 git push origin main
+
+sleep 0.4
+clear
+echo "Done!"
+exit
